@@ -1,6 +1,6 @@
 const ProjectSection = () => {
     return (
-        <section>
+        <section className="h-screen">
             <h2>Projects</h2>
             
         </section>
