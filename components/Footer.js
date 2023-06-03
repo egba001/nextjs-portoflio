@@ -1,6 +1,6 @@
 import { AiOutlineMail } from "react-icons/ai";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import SectionHeading from "./SectionHeading";
+import SectionHeading from "./SectionHeading.js";
 
 const Footer = () => {
 

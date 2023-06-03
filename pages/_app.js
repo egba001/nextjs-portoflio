@@ -1,7 +1,7 @@
 import 'tailwindcss/tailwind.css';
 import { Inter } from 'next/font/google';
 import Head from 'next/head';
-import Layout from './../components/Layout';
+import Layout from './../components/Layout.js';
  
 // If loading a variable font, you don't need to specify the font weight
 const inter = Inter({ subsets: ['latin'] });

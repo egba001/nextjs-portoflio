@@ -1,6 +1,6 @@
-import SkillComponent from './SkillComponent';
-import { skills } from '../myData';
-import SectionHeading from './SectionHeading';
+import SkillComponent from './SkillComponent.js';
+import { skills } from '../myData.js';
+import SectionHeading from './SectionHeading.js';
 
 const SkillsSection = () => {
     return (

@@ -1,6 +1,6 @@
-import SectionHeading from "./SectionHeading";
-import { projectList } from '../myData';
-import ProjectComponent from './ProjectComponent';
+import SectionHeading from "./SectionHeading.js";
+import { projectList } from '../myData.js';
+import ProjectComponent from './ProjectComponent.js';
 
 const ProjectsSection = () => {
     return (

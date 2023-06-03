@@ -1,9 +1,9 @@
-import Header from './../components/Header';
-import SkillsSection from './../components/SkillsSection';
+import Header from '../components/Header.js';
+import SkillsSection from '../components/SkillsSection.js';
 import 'remixicon/fonts/remixicon.css';
-import { myData }  from './../myData.js';
-import ProjectsSection from './../components/ProjectsSection';
-import Footer from './../components/Footer';
+import { myData }  from '../myData.js';
+import ProjectsSection from '../components/ProjectsSection.js';
+import Footer from './../components/Footer.js';
 
 const baseURL = 'https://api.github.com/users/egba001/repos';
 
