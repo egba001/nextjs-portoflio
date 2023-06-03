@@ -1,13 +1,6 @@
-import { Fira_Code, Lato } from 'next/font/google';
+import { Inter } from 'next/font/google';
+import localFont from 'next/font/local';
 
-export const firaCode = Fira_Code({
-  weight: ['400', '300'],
-  subsets: ['cyrillic'],
-  variable: '--fira-header'
-})
-export const lato = Lato({
-    weight: '900',
-    subsets: ['latin'],
-    style: 'normal',
-    variable: '--lato'
-})
+export const inter = Inter({ subsets: ['latin'] });
+export const headerFont = localFont({src: '../assets/fonts/GTWalsheimPro-Bold.woff2'});
+

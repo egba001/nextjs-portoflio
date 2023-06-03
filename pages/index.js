@@ -5,20 +5,6 @@ import { myData }  from '../myData.js';
 import ProjectsSection from '../components/ProjectsSection.js';
 import Footer from './../components/Footer.js';
 
-const baseURL = 'https://api.github.com/users/egba001/repos';
-
-// export async function getStaticProps() {
-//     const response = await fetch(baseURL);
-//     const userDetails = await response.json();
-//     console.log(userDetails);
-//     return {
-//       props: {
-//         userDetails
-//       }
-//     }
-// }
-
-
 export default function Home() {
   return (
     <div className='px-4'>
