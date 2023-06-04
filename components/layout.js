@@ -1,6 +1,6 @@
-const Layout = ({children, inter}) => {
+const Layout = ({children}) => {
     return (
-        <div className={`px:6 md:px-32 w-full h-full ${inter.className} bg-darkGray h-full w-full`}>
+        <div className={` w-full flex justify-center h-full bg-darkGray`}>
             {children}
         </div>
     )

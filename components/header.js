@@ -1,19 +1,10 @@
-import { Inter } from "next/font/google";
 import Link from "next/link";
 import Button from "./button";
 import { useState } from "react";
 import { UilBars, UilMultiply } from '@iconscout/react-unicons';
-import localFont from 'next/font/local';
 import { UilGithub, UilLinkedin, UilEnvelope, UilArrowDown } from '@iconscout/react-unicons';
-
-const headerFont = localFont({src: '../assets/fonts/GTWalsheimPro-Bold.woff2'});
-
-export const inter = Inter({
-    weight: '100',
-    subsets: ['latin'],
-    style: 'normal',
-})
-
+import { inter } from '../app/fonts.js';
+import { headerFont } from "../app/fonts.js";
 
 const Header = ({ data }) => {
     const {userName, bio, socialLinks} = data;
@@ -22,28 +13,30 @@ const Header = ({ data }) => {
     const [ visible, setVisible ] = useState(false)
 
     return (
-        <div className="md:h-screen bg-darkGray mb-20 md:mb-20 h-fit w-full">
-            <div className="px-6 md:px-36 bg-darkGray backdrop-filter backdrop-blur-md bg-opacity-30 md:py-8 w-full flex items-center fixed top-0 left-0 z-50 py-6 justify-between">
+        <div className="bg-darkGray mb-20 md:mb-20 h-fit max-w-5xl relative">
+            <div className=" bg-darkGray backdrop-filter backdrop-blur-md bg-opacity-30 md:py-8 w-full flex items-center fixed top-0 left-0 z-50 py-6 justify-center">
+                <div className="flex w-[1000px] justify-between px-4 lg:px-0">
                 <Link href='/'>
                     <h1 className={`${inter.className} text-sm text-white font-thin md:text-2xl`}>EN.</h1>
                 </Link>
-                <div className="cursor-pointer z-20 md:hidden text-white" onClick={() => setVisible(!visible)}>
+                <div className="cursor-pointer z-20 lg:hidden text-white" onClick={() => setVisible(!visible)}>
                     {visible ? <UilMultiply /> : <UilBars />}
                 </div>
                 <div className="hidden lg:block">
                     <nav className="w-full">
                         <ul className={`${inter.className} flex text-white font-thin space-x-10 text-md items-center justify-center`}>
                            <li className="hover:text-purple-400">
-                               <Link href='#'>Projects</Link>
+                               <Link href='../aboutme'>Home</Link>
                             </li>
                            <li className="hover:text-purple-400">
-                              <Link href='#'>Resume</Link>
+                              <Link href='#'>About</Link>
                             </li>
                            <li className="hover:text-purple-400">
                               <Link href='#'>Contact</Link>
                             </li>
                         </ul>
                     </nav>
+                </div>
                 </div>
             </div>
                 {visible &&
@@ -64,13 +57,13 @@ const Header = ({ data }) => {
                     </div>
                 }
             <div className='w-full h-fit pt-32'>
-                <p className='font-thin text-2xl text-white md:mb-6'>Hey, I'm</p>
-                <h1 className={`${headerFont.className} text-6xl break-words animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-bold md:text-8xl pb-2 leading-snug`}>{userName}</h1>
+                <p className='font-thin text-2xl text-white md:mb-6 cursor-pointer'>Hey, I'm</p>
+                <h1 className={`${headerFont.className} text-6xl cursor-pointer break-words animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-bold md:text-8xl pb-2 leading-snug`}>{userName}</h1>
                 <div className="mt-2 md:mt-8 text-white leading-loose font-thin">
                     <p>{bio}</p>
                 </div>
             </div>
-            <div className="flex w-full flex-wrap mt-12 mb-12 space-x-3 text-white md:mb-16 ">
+            <div className="flex w-full flex-wrap mt-12 mb-4 space-x-3 text-white md:mb-8 ">
                 <Button linkTo={socialLinks.linkedin.URL}>
                     <UilLinkedin />
                 </Button>
@@ -81,6 +74,7 @@ const Header = ({ data }) => {
                     <UilEnvelope />
                 </Button>
             </div>
+            <button className='py-2 px-10 rounded-full text-white bg-purple-500'>Download CV</button>
             <div className="hidden md:block animate-bounce text-white absolute right-6 bottom-12 text-2xl">
                 <UilArrowDown size='50'/>
             </div>
