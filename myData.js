@@ -6,7 +6,7 @@ import bb from './assets/images/bb.png'
 
 export const myData = {
     userName: 'Egba Nnaemeka',
-    bio: `Hi there! I'm, a frontend developer with a passion for crafting exceptional user experiences. With expertise in React and JavaScript, I specialize in building elegant and intuitive web applications. I'm excited to bring my expertise and enthusiasm to your next project, creating seamless and visually appealing experiences that leave a lasting impact. Let's work together to build something remarkable!`,
+    bio: `Hi there! I'm, a frontend developer with a passion for crafting exceptional user experiences. With experience using React and JavaScript and Typescript, I specialize in building elegant and intuitive web applications. I'm excited to bring my expertise and enthusiasm to your next project, creating seamless and visually appealing experiences that leave a lasting impact.`,
     socialLinks : {
         github: {
             name: 'Github',
@@ -26,11 +26,12 @@ export const myData = {
 export const skills = {
     languages : [
         "Javascript",
+        "Typescript",
         "C"
     ],
     frameworks : [
         "React JS",
-        "Next"
+        "Next JS"
     ],
     tools : [
         "Redux",

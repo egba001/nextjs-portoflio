@@ -4,7 +4,7 @@ import ProjectComponent from './ProjectComponent.js';
 
 const ProjectsSection = () => {
     return (
-        <section className="w-full flex flex-col mb-16 pb-16 border-b">
+        <section className="w-full flex flex-col mb-16 pb-16">
             <SectionHeading title='projects' />
             <div className="grid gap-6 gap-y-24 md:grid-cols-3 grid-cols-1">
                 {projectList.map((project, index) => {

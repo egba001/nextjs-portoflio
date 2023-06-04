@@ -1,3 +1,4 @@
+import Link from "next/link.js";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import SectionHeading from "./SectionHeading.js";
@@ -11,18 +12,32 @@ const Footer = () => {
     }
 
     return (
-        <footer className="pb-24">
+        <footer className="pb-24 min-w-5xl border-t px-4 lg:px-0 pt-16">
+            <div>
             <SectionHeading title='contact' />
-            <div className="flex flex-col md:items-center md:flex-row md:space-x-4">
-                <ButtonLink purpose='send an email' link={details.email}>
-                    <AiOutlineMail />
-                </ButtonLink>
-                <ButtonLink purpose='linkedin' link={details.linkedin}>
-                    <BsLinkedin />
-                </ButtonLink>
-                <ButtonLink purpose='github' link={details.github}>
-                    <BsGithub />
-                </ButtonLink>
+            <div className="flex justify-between items-start">
+                <h2 className="font-bold text-3xl text-white">EN</h2>
+                <div className="text-white hidden md:block">
+                    <nav>
+                        <ul className="space-y-4">
+                            <li className="hover:text-purple-500"><Link href='/'>Home</Link></li>
+                            <li className="hover:text-purple-500"><Link href='/aboutme'>About</Link></li>
+                            <li className="hover:text-purple-500"><Link href='/contact'>Contact</Link></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div className="flex flex-col items-end pr-2 lg:pr-0 md:items-center md:flex-row md:space-x-4">
+                    <ButtonLink purpose='send an email' link={details.email}>
+                        <AiOutlineMail />
+                    </ButtonLink>
+                    <ButtonLink purpose='linkedin' link={details.linkedin}>
+                        <BsLinkedin />
+                    </ButtonLink>
+                    <ButtonLink purpose='github' link={details.github}>
+                        <BsGithub />
+                    </ButtonLink>
+                </div>
+            </div>
             </div>
         </footer>
     )

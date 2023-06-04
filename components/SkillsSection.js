@@ -4,7 +4,7 @@ import SectionHeading from './SectionHeading.js';
 
 const SkillsSection = () => {
     return (
-        <section className='mb-16 border-b pb-16'>
+        <section className='mb-16'>
             <SectionHeading title='skills' />
             <div className='grid text-white grid-cols-2 md:grid md:grid-cols-4 gap-6'>
                 <div className="">
