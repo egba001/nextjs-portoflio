@@ -6,7 +6,7 @@ import bb from './assets/images/bb.png'
 
 export const myData = {
     userName: 'Egba Nnaemeka',
-    bio: `Hi there! I'm, a frontend developer with a passion for crafting exceptional user experiences. With experience using React and JavaScript and Typescript, I specialize in building elegant and intuitive web applications. I'm excited to bring my expertise and enthusiasm to your next project, creating seamless and visually appealing experiences that leave a lasting impact.`,
+    bio: `A frontend developer with a passion for crafting exceptional user experiences. With experience using React and JavaScript and Typescript, I specialize in building elegant and intuitive web applications. I'm excited to bring my expertise and enthusiasm to your next project, creating seamless and visually appealing experiences that leave a lasting impact.`,
     socialLinks : {
         github: {
             name: 'Github',

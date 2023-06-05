@@ -3,6 +3,7 @@ import { skills } from '../myData.js';
 import SectionHeading from './SectionHeading.js';
 
 const SkillsSection = () => {
+
     return (
         <section className='mb-16'>
             <SectionHeading title='skills' />
