@@ -1,4 +1,4 @@
-import Header from '../components/Header.js';
+import { Header } from '../components/header.js';
 import 'remixicon/fonts/remixicon.css';
 import { myData }  from '../myData.js';
 import ProjectsSection from '../components/ProjectsSection.js';

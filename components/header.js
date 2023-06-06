@@ -2,9 +2,9 @@ import Link from "next/link";
 import Button from "./button";
 import { UilGithub, UilLinkedin, UilEnvelope, UilArrowDown } from '@iconscout/react-unicons';
 import { headerFont } from "../app/fonts.js";
-import Navbar from "./Navbar";
+import { Navbar } from "./Navbar";
 
-const Header = ({ data }) => {
+export const Header = ({ data }) => {
     const {userName, bio, socialLinks} = data;
 
     return (
@@ -35,5 +35,3 @@ const Header = ({ data }) => {
         </div>
     )
 }
-
-export default Header;
