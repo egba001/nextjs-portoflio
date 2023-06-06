@@ -1,10 +1,10 @@
 import 'tailwindcss/tailwind.css';
 import Head from 'next/head';
-import { Layout } from './../components/Layout.js';
+import { Layout } from '../components/Layout.js';
 import { Cursor } from 'react-creative-cursor';
 import 'react-creative-cursor/dist/styles.css';
-import { Navbar } from './../components/Navbar.js';
-import { Footer } from './../components/Footer.js';
+import { Navbar } from '../components/Navbar.js';
+import { Footer } from '../components/Footer.js';
 
 // If loading a variable font, you don't need to specify the font weight
 
