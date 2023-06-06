@@ -7,6 +7,7 @@ export default function Document() {
         <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
         <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
         <meta name="theme-color" content="#000000" />
+        {/* <meta name="viewport" content="width=device-width, initial-scale=1.0" /> */}
         <meta
             name="description"
             content="Web site created using create-react-app"
