@@ -3,7 +3,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import SectionHeading from "./SectionHeading.js";
 
-const Footer = () => {
+export const Footer = () => {
 
     const details = {
         email: 'mailto:emekson128@gmail.com',
@@ -53,5 +53,3 @@ const ButtonLink = ({ purpose, link, children }) => {
         </a>
     )
 }
-
-export default Footer;

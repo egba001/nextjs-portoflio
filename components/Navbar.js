@@ -3,7 +3,7 @@ import { UilMultiply, UilBars } from '@iconscout/react-unicons';
 import { inter } from "../app/fonts";
 import { useState } from "react";
 
-const Navbar = () => {
+export const Navbar = () => {
 
     // Call use state to hold state for menu display on  mobuile devices
     const [ visible, setVisible ] = useState(false)
@@ -53,5 +53,3 @@ const Navbar = () => {
             </div>
     )
 }
-
-export default Navbar;
