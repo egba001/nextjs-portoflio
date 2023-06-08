@@ -12,7 +12,7 @@ export const Footer = () => {
     }
 
     return (
-        <footer className="pb-24 w-full border-t px-4 lg:px-0 pt-16">
+        <footer className="pb-24 w-full px-4 lg:px-0">
             <div>
             <SectionHeading title='contact' />
             <div className="flex justify-between items-start">
