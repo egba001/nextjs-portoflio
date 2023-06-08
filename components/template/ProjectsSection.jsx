@@ -1,6 +1,6 @@
-import SectionHeading from "../atom/SectionHeading.js";
+import SectionHeading from "../atom/SectionHeading.jsx";
 import { projectList } from '../../myData.js';
-import ProjectComponent from '../molecules/ProjectComponent.js';
+import ProjectComponent from '../molecules/ProjectComponent.jsx';
 
 const ProjectsSection = () => {
     return (

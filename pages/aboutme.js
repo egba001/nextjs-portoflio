@@ -1,4 +1,4 @@
-import SkillsSection from "@/components/template/SkillsSection";
+import SkillsSection from "../components/template/SkillsSection.jsx";
 
 export default function AboutMe() {
   return (

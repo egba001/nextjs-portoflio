@@ -1,7 +1,7 @@
 import Link from "next/link.js";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import SectionHeading from "../atom/SectionHeading.js";
+import SectionHeading from "../atom/SectionHeading.jsx";
 
 export const Footer = () => {
 

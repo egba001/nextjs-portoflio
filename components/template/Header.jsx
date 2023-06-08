@@ -1,8 +1,8 @@
 import Link from "next/link";
-import Button from "../atom/button";
+import Button from "../atom/Button.jsx";
 import { UilGithub, UilLinkedin, UilEnvelope, UilArrowDown } from '@iconscout/react-unicons';
 import { headerFont } from "../../app/fonts.js";
-import { Navbar } from "./Navbar";
+import { Navbar } from "./Navbar.jsx";
 
 export const Header = ({ data }) => {
     const {userName, bio, socialLinks} = data;
