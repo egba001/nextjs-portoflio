@@ -26,13 +26,13 @@ const ContactPage = () => {
       };
 
     return (
-        <div className="flex justify-center w-[1000px] mt-32">
+        <div className="flex justify-center w-full lg:w-[1000px] mt-32">
             <div className="w-full">
-                <div className="mx-auto text-center w-fit text-white mb-8 ">
+                <div className="mx-auto text-center w-full text-white mb-8 ">
                     <h2 className="text-3xl mb-4 font-bold">Let's Talk</h2>
                     <p>If you are interested in my work or have any concerns, do not hesitate to contact me</p>
                 </div>
-                <form className='w-[70%] mx-auto' ref={form} onSubmit={sendEmail}>
+                <form className='lg:w-[70%] w-full px-4 lg:px-0 mx-auto' ref={form} onSubmit={sendEmail}>
                     <div className='flex justify-between space-x-4 mb-4'>
                         <input type='text' className="bg-darkGray w-1/2 active:bg-darkGray focus:outline-none border rounded-lg p-3 text-white" placeholder='Name' name='user_name' />
                         <input type='email' className="bg-darkGray w-1/2 focus:outline-none border rounded-lg p-3 text-white" placeholder='Email address' name='user_email' />
