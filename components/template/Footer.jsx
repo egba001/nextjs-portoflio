@@ -6,7 +6,7 @@ import SectionHeading from "../atom/SectionHeading.js";
 export const Footer = () => {
 
     const details = {
-        email: 'mailto:emekson128@gmail.com',
+        email: 'mailto:emekason128@gmail.com',
         linkedin: 'https://linkedin.com/in/egba-nnaemeka-2192b7235',
         github: 'https://github.com/egba001'
     }
