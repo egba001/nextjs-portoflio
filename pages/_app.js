@@ -1,7 +1,7 @@
 import 'tailwindcss/tailwind.css';
-import { Layout } from '../components/Layout.jsx';
-import { Navbar } from '../components/Navbar.jsx';
-import { Footer } from '../components/Footer.jsx';
+import { Layout } from '../components/template/Layout.jsx';
+import { Navbar } from '../components/template/Navbar.jsx';
+import { Footer } from '../components/template/Footer.jsx';
 
 export default function App({ Component, pageProps }) {
   return (
