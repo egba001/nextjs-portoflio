@@ -3,6 +3,7 @@ import ecomm from './assets/images/ecomm.png'
 import responsive from './assets/images/responsive.png'
 import tech1m from './assets/images/tech1m.jpg'
 import bb from './assets/images/bb.png'
+import shortener from './assets/images/shortener.png'
 
 export const myData = {
     userName: 'Egba Nnaemeka',
@@ -46,6 +47,14 @@ export const skills = {
     ]
 }
 export const projectList =  [
+    {
+        projectName: 'URL Shortener',
+        stack: ['Next JS', 'Javascript', 'Shrtcode API', 'TailwindCSS'],
+        description: 'This URL Shortener App is a web application built using Next.js and integrated with the shrtcode API',
+        githubRepo: 'https://github.com/egba001/nextjs-url-shortener',
+        liveDemo: 'https://nextjs-url-shortener-eight.vercel.app/',
+        image: shortener
+    },
     {
         projectName: 'Tech1m Juniors LMS',
         stack: ['React', 'Javascript', 'Firebase', 'TailwindCSS'],
