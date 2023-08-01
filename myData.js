@@ -64,14 +64,6 @@ export const projectList =  [
         image: tech1m
     },
     {
-        projectName: 'React-Ecommerce Website',
-        stack: ['React', 'ContextAPI', 'Fake Store API'],
-        description: 'An e-commerce website built using React, TailwindCSS for styling, and data from Fakestore API',
-        githubRepo: 'https://github.com/egba001/React-Ecommerce-Web-Application',
-        liveDemo: 'https://e-commerce-egba001.vercel.app/',
-        image: ecomm
-    },
-    {
         projectName: 'Responsive Landing Page',
         stack: ['HTML', 'CSS', 'Javascript', 'SCSS'],
         description: 'A responsive website created using HTML and SCSS. I explored responsive web design using CSS grid layout.',

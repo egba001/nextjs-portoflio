@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { UilMultiply, UilBars } from '@iconscout/react-unicons';
-import { inter } from "../../app/fonts";
+import { inter } from "../../font/fonts";
 import { useState } from "react";
 
 export const Navbar = () => {

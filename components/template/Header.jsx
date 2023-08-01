@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Button from "../atom/Button.jsx";
 import { UilGithub, UilLinkedin, UilEnvelope, UilArrowDown } from '@iconscout/react-unicons';
-import { headerFont } from "../../app/fonts.js";
+import { headerFont } from "../../font/fonts.js";
 import { Navbar } from "./Navbar.jsx";
 
 export const Header = ({ data }) => {
