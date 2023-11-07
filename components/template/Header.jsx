@@ -28,7 +28,7 @@ export const Header = ({ data }) => {
                     <UilEnvelope />
                 </Button>
             </div>
-            <button className='py-2 px-10 rounded-full text-white bg-purple-500'><a href="https://drive.google.com/file/d/1fyqUh5_HD-nGidB36aNU-b7QUjdPp1m3/view?usp=drive_link" target='_blank'>Download CV</a></button>
+            <button className='py-2 px-10 rounded-full text-white bg-purple-500'><a href="https://docs.google.com/document/d/1-vG1rADZC8UxXPBfby4fIUGM2mLQ9bkbenodW1mPX9o/edit?usp=sharing" target='_blank'>Download CV</a></button>
             <div className="hidden md:block animate-bounce text-white absolute right-6 bottom-12 text-2xl">
                 <UilArrowDown size='50'/>
             </div>
