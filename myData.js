@@ -1,6 +1,7 @@
 import portfolio from './assets/images/portfolio.png'
 import ecomm from './assets/images/ecomm.png'
 import responsive from './assets/images/responsive.png'
+import country from './assets/images/country.png'
 import tech1m from './assets/images/tech1m.jpg'
 import bb from './assets/images/bb.png'
 import shortener from './assets/images/shortener.png'
@@ -48,6 +49,14 @@ export const skills = {
 }
 export const projectList =  [
     {
+        projectName: 'Country API',
+        stack: ['NextJS', 'TailwindCSS', 'NextAuth', 'MongoDB'],
+        description: 'A web application that fetches data from Country API and allows users to search and filter through countries.',
+        githubRepo: 'https://github.com/egba001/movie_box',
+        liveDemo: 'https://movie-box-gilt.vercel.app',
+        image: country
+    },
+    {
         projectName: 'URL Shortener',
         stack: ['Next JS', 'Javascript', 'Shrtcode API', 'TailwindCSS'],
         description: 'This URL Shortener App is a web application built using Next.js and integrated with the shrtcode API',
@@ -86,5 +95,5 @@ export const projectList =  [
         githubRepo: 'https://github.com/egba001/nextjs-portoflio',
         liveDemo: '#',
         image: portfolio
-    }
+    },
 ]
