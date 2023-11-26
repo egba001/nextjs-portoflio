@@ -3,7 +3,7 @@ import ecomm from './assets/images/ecomm.png'
 import responsive from './assets/images/responsive.png'
 import tech1m from './assets/images/tech1m.jpg'
 import bb from './assets/images/bb.png'
-import shortener from './assets/images/shortener.png'
+import getlinked from './assets/images/getlinked.png'
 
 export const myData = {
     userName: 'Egba Nnaemeka',
@@ -46,45 +46,50 @@ export const skills = {
         "Chakra UI"
     ]
 }
-export const projectList =  [
+export const projectList = [
     {
-        projectName: 'URL Shortener',
-        stack: ['Next JS', 'Javascript', 'Shrtcode API', 'TailwindCSS'],
-        description: 'This URL Shortener App is a web application built using Next.js and integrated with the shrtcode API',
-        githubRepo: 'https://github.com/egba001/nextjs-url-shortener',
-        liveDemo: 'https://nextjs-url-shortener-eight.vercel.app/',
-        image: shortener
+        projectName: "GetLinked Pre Hackathon Challenge",
+        stack: ["React JS", "Framer motion", "API", "TailwindCSS"],
+        description:
+            "Landing page design for the 2023 getlinkedin pre hackathon challenge",
+        githubRepo: "https://github.com/egba001/getlinkedin",
+        liveDemo: "https://getlinkedin.vercel.app/",
+        image: getlinked,
     },
     {
-        projectName: 'Tech1m Juniors LMS',
-        stack: ['React', 'Javascript', 'Firebase', 'TailwindCSS'],
-        description: 'Final project for the tech1m frontend development bootcamp prgram built using React, Tailwindcss, Firebase, Formik',
-        githubRepo: 'https://github.com/egba001/Tech1m-group3-project',
-        liveDemo: 'https://tech1m-group3-project.vercel.app/',
-        image: tech1m
+        projectName: "Tech1m Juniors LMS",
+        stack: ["React", "Javascript", "Firebase", "TailwindCSS"],
+        description:
+            "Final project for the tech1m frontend development bootcamp prgram built using React, Tailwindcss, Firebase, Formik",
+        githubRepo: "https://github.com/egba001/Tech1m-group3-project",
+        liveDemo: "https://tech1m-group3-project.vercel.app/",
+        image: tech1m,
     },
     {
-        projectName: 'Responsive Landing Page',
-        stack: ['HTML', 'CSS', 'Javascript', 'SCSS'],
-        description: 'A responsive website created using HTML and SCSS. I explored responsive web design using CSS grid layout.',
-        githubRepo: 'https://github.com/egba001/Responsive-Landing-page',
-        liveDemo: 'https://campsite121.netlify.app/',
-        image: responsive
+        projectName: "Responsive Landing Page",
+        stack: ["HTML", "CSS", "Javascript", "SCSS"],
+        description:
+            "A responsive website created using HTML and SCSS. I explored responsive web design using CSS grid layout.",
+        githubRepo: "https://github.com/egba001/Responsive-Landing-page",
+        liveDemo: "https://campsite121.netlify.app/",
+        image: responsive,
     },
     {
-        projectName: 'BB Assistant Landing Page',
-        stack: ['HTML', 'CSS', 'Javascript'],
-        description: 'A responsive website for a built using HTML and styled using CSS. This project explores the use of CSS flexbox to create responsive layouts',
-        githubRepo: 'https://github.com/egba001/BB-Assistant-Landing-Page',
-        liveDemo: 'https://funny-piroshki-3081ca.netlify.app/',
-        image: bb
+        projectName: "BB Assistant Landing Page",
+        stack: ["HTML", "CSS", "Javascript"],
+        description:
+            "A responsive website for a built using HTML and styled using CSS. This project explores the use of CSS flexbox to create responsive layouts",
+        githubRepo: "https://github.com/egba001/BB-Assistant-Landing-Page",
+        liveDemo: "https://funny-piroshki-3081ca.netlify.app/",
+        image: bb,
     },
     {
-        projectName: 'Portfolio Website',
-        stack: ['NextJS', 'TailwindCSS'],
-        description: 'An e-commerce website built using React, TailwindCSS for styling, and data from Fakestore API',
-        githubRepo: 'https://github.com/egba001/nextjs-portoflio',
-        liveDemo: '#',
-        image: portfolio
-    }
-]
+        projectName: "Portfolio Website",
+        stack: ["NextJS", "TailwindCSS"],
+        description:
+            "An e-commerce website built using React, TailwindCSS for styling, and data from Fakestore API",
+        githubRepo: "https://github.com/egba001/nextjs-portoflio",
+        liveDemo: "#",
+        image: portfolio,
+    },
+];
