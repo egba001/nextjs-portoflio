@@ -1,6 +1,7 @@
 import portfolio from './assets/images/portfolio.png'
 import ecomm from './assets/images/ecomm.png'
 import responsive from './assets/images/responsive.png'
+import country from './assets/images/country.png'
 import tech1m from './assets/images/tech1m.jpg'
 import bb from './assets/images/bb.png'
 import getlinked from './assets/images/getlinked.png'
@@ -55,6 +56,14 @@ export const projectList = [
         githubRepo: "https://github.com/egba001/getlinkedin",
         liveDemo: "https://getlinkedin.vercel.app/",
         image: getlinked,
+    },
+    {
+        projectName: 'Country API',
+        stack: ['NextJS', 'TailwindCSS', 'NextAuth', 'MongoDB'],
+        description: 'A web application that fetches data from Country API and allows users to search and filter through countries.',
+        githubRepo: 'https://github.com/egba001/movie_box',
+        liveDemo: 'https://movie-box-gilt.vercel.app',
+        image: country
     },
     {
         projectName: "Tech1m Juniors LMS",
