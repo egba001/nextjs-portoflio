@@ -5,6 +5,7 @@ import country from './assets/images/country.png'
 import tech1m from './assets/images/tech1m.jpg'
 import bb from './assets/images/bb.png'
 import getlinked from './assets/images/getlinked.png'
+import shortener from './assets/images/shortener.png'
 
 export const myData = {
     userName: 'Egba Nnaemeka',
@@ -58,12 +59,21 @@ export const projectList = [
         image: getlinked,
     },
     {
-        projectName: 'Country API',
-        stack: ['NextJS', 'TailwindCSS', 'NextAuth', 'MongoDB'],
-        description: 'A web application that fetches data from Country API and allows users to search and filter through countries.',
-        githubRepo: 'https://github.com/egba001/movie_box',
-        liveDemo: 'https://movie-box-gilt.vercel.app',
-        image: country
+        projectName: "URL shortener",
+        stack: ["Next JS", "API", "TailwindCSS"],
+        description: "URL shortening website created using Fast SHortener API",
+        githubRepo: "https://github.com/egba001/nextjs-url-shortener",
+        liveDemo: "https://nextjs-url-shortener-eight.vercel.app/",
+        image: shortener,
+    },
+    {
+        projectName: "Country API",
+        stack: ["NextJS", "TailwindCSS", "NextAuth", "MongoDB"],
+        description:
+            "A web application that fetches data from Country API and allows users to search and filter through countries.",
+        githubRepo: "https://github.com/egba001/movie_box",
+        liveDemo: "https://movie-box-gilt.vercel.app",
+        image: country,
     },
     {
         projectName: "Tech1m Juniors LMS",
@@ -82,15 +92,6 @@ export const projectList = [
         githubRepo: "https://github.com/egba001/Responsive-Landing-page",
         liveDemo: "https://campsite121.netlify.app/",
         image: responsive,
-    },
-    {
-        projectName: "BB Assistant Landing Page",
-        stack: ["HTML", "CSS", "Javascript"],
-        description:
-            "A responsive website for a built using HTML and styled using CSS. This project explores the use of CSS flexbox to create responsive layouts",
-        githubRepo: "https://github.com/egba001/BB-Assistant-Landing-Page",
-        liveDemo: "https://funny-piroshki-3081ca.netlify.app/",
-        image: bb,
     },
     {
         projectName: "Portfolio Website",
